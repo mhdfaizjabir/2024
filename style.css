@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
+body{  background-color: ivory;}
+nav{
+    position: fixed; 
+    background-color: ivory;
+    width: 100%; /* Set the width to 100% to cover the entire width */
+    text-align: center; 
+    margin-top: 0rem;
+    border-bottom: 1px solid grey;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin :  1rem;
+    padding: 1rem;
+    
+
+}
+nav a:hover {
+    color: cornflowerblue;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header{
+    margin-top: -10px;
+}
+
+#home{
+    padding-top: 2rem;
+    text-align: center;
+    padding-left: 1%;  
+}
+.centered-text{
+    margin-bottom: -5%;
+    
+}
+#fd{
+    text-align: center;
+}
+#myname{
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 35%;
+    font-size: x-large;
+   color: cornflowerblue
+  
+}
+
+#about{
+    padding-top: 0px;
+    margin-bottom:11%;
+}
+#abt{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 100px;
+    font-weight: lighter;
+    padding-top: 5%;
+
+    
+    
+}
+
+#aboutpa{
+    font-family:syne ;
+    font-size: 28px;
+}
+
+
+#letsTalkBtn{
+    color: black;
+    background-color: ivory;
+    border: 1px solid black;
+    font-size: 30px;
+    padding: 20px 50px 20px 50px;
+    
+}
+.btn{
+   
+    text-align: center;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    
+    max-width: 60%; /* Adjust the width of the text container as needed */
+}
+
+ 
+.about-image {
+    box-sizing: border-box;
+    max-width: 15%; /* Adjust the width of the image container as needed */
+    padding: 15px; /* Add padding to create a gap around the image */
+    border: 2px ridge black; /* Add border styling */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.about-image img {
+    width: 100%; /* Set the width of the image to 100% */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.section-heading{
+    font-size: 100px;
+    font-family: fantasy;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 6%;
+    
+}
+
+
+.skills-box {
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.skill {
+   
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.skill i {
+    font-size: 60px; /* Increase icon size */
+    color: black; /* Icon color */
+}
+
+/* Hover effect for each skill */
+
+
+/* Hover effect for each skill icon */
+#html:hover i {
+    color: #e34c26; /* HTML color */
+}
+
+#css:hover i {
+    color: #264de4; /* CSS color */
+}
+
+#js:hover i {
+    color: #f7df1e; /* JS color */
+}
+
+#python:hover i {
+    color: #1262a4; /* Python color */
+}
+
+#mysql:hover i {
+    color: #00758f; /* MySQL color */
+}
+
+#mongodb:hover i {
+    color: #13aa52; /* MongoDB color */
+}
+/* Add these styles for the My Skills section at the end of your existing CSS */
+
+.skill:hover {
+    animation: jump 1.3s ease-in-out;
+}
+
+@keyframes jump {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Service and Experience Section Styles */
+.service, .experience {
+    text-align: center;
+    padding: 5% 0;
+    background-color: ivory;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    flex: 1 1 calc(30% - 2rem);
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+    background: ivory;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.box i {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    font-size: 1.8rem;
+    color: cornflowerblue;
+    background: var(--main-color);
+    border-radius: 50%;
+}
+
+.box h3 {
+    color: black;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    font-family: syne;
+}
+
+.box p {
+    color: grey;
+    font-size: 1rem;
+    padding-top: .5rem;
+    font-family: syne;
+}
+
+.heading {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 100px;
+    font-weight: lighter;
+    padding-top: 6%;
+    margin-bottom: 11px;
+}
+
+
+/* Contact Section Styles */
+.contact {
+    text-align: center;
+    padding: 5% 0;
+    background-color: ivony;
+    font-family: syne;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.icons {
+    flex: 1 1 calc(30% - 2rem);
+    margin: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+    background: ivory;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    font-family: syne;
+}
+
+.icons i {
+    font-size: 2rem;
+    color: cornflowerblue;
+}
+
+.icons h3 {
+    font-size: 1.5rem;
+    color: black;
+    margin-top: 1rem;
+    font-family: syne;
+}
+
+.icons p {
+    font-size: 1rem;
+    color: grey;
+    margin-top: .5rem;
+}
+
+
+/* Updated Footer Styles */
+body {
+    overflow-x: hidden;
+    margin: 0; /* Remove default margin */
+}
+
+html {
+    background-color: black; /* Set background color for the html element */
+}
+
+footer {
+    background-color: black; /* Set background color for the footer only */
+    color: ivory;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px; /* Adjust the height as needed */
+   
+    bottom: 0;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.copyright::before {
+    content: "\00a9";
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    color: ivory;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+
+
+.service{
+    padding-top: 0px;
+}
+.skills-box{
+    padding-top: 5%;
+}
+.experience{
+    padding-top: 0px;
+    margin-bottom: 10px
+}
+.contact{
+    padding-top: 0px;
+    margin-bottom: 10px
+}
