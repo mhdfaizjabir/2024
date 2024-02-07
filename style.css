@@ -3,7 +3,7 @@ body{  background-color: ivory;}
 nav{
     position: fixed; 
     background-color: ivory;
-    width: 100%; /* Set the width to 100% to cover the entire width */
+    width: 100%; 
     text-align: center; 
     margin-top: 0rem;
     border-bottom: 1px solid grey;
@@ -94,21 +94,21 @@ header{
 
 .about-text {
     
-    max-width: 60%; /* Adjust the width of the text container as needed */
+    max-width: 60%;
 }
 
  
 .about-image {
     box-sizing: border-box;
-    max-width: 15%; /* Adjust the width of the image container as needed */
-    padding: 15px; /* Add padding to create a gap around the image */
-    border: 2px ridge black; /* Add border styling */
-    margin: 0 auto; /* Center the container horizontally */
+    max-width: 15%; 
+    padding: 15px; 
+    border: 2px ridge black; 
+    margin: 0 auto; 
 }
 
 .about-image img {
-    width: 100%; /* Set the width of the image to 100% */
-    margin: 0 auto; /* Center the image horizontally */
+    width: 100%; 
+    margin: 0 auto; 
 }
 
 .section-heading{
@@ -137,38 +137,35 @@ header{
 }
 
 .skill i {
-    font-size: 60px; /* Increase icon size */
-    color: black; /* Icon color */
+    font-size: 60px; 
+    color: black; 
 }
 
-/* Hover effect for each skill */
 
-
-/* Hover effect for each skill icon */
 #html:hover i {
-    color: #e34c26; /* HTML color */
+    color: #e34c26; 
 }
 
 #css:hover i {
-    color: #264de4; /* CSS color */
+    color: #264de4; 
 }
 
 #js:hover i {
-    color: #f7df1e; /* JS color */
+    color: #f7df1e; 
 }
 
 #python:hover i {
-    color: #1262a4; /* Python color */
+    color: #1262a4; 
 }
 
 #mysql:hover i {
-    color: #00758f; /* MySQL color */
+    color: #00758f; 
 }
 
 #mongodb:hover i {
-    color: #13aa52; /* MongoDB color */
+    color: #13aa52; 
 }
-/* Add these styles for the My Skills section at the end of your existing CSS */
+
 
 .skill:hover {
     animation: jump 1.3s ease-in-out;
@@ -186,7 +183,6 @@ header{
     }
 }
 
-/* Service and Experience Section Styles */
 .service, .experience {
     text-align: center;
     padding: 5% 0;
@@ -243,7 +239,6 @@ header{
 }
 
 
-/* Contact Section Styles */
 .contact {
     text-align: center;
     padding: 5% 0;
@@ -288,18 +283,17 @@ header{
 }
 
 
-/* Updated Footer Styles */
 body {
     overflow-x: hidden;
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 
 html {
-    background-color: black; /* Set background color for the html element */
+    background-color: black; 
 }
 
 footer {
-    background-color: black; /* Set background color for the footer only */
+    background-color: black; 
     color: ivory;
     padding: 15px;
     box-sizing: border-box;
@@ -307,7 +301,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 150px; /* Adjust the height as needed */
+    height: 150px; 
    
     bottom: 0;
 }
